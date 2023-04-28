@@ -289,14 +289,9 @@ a {
 
 .heading {
     background: transparent;
-    margin-top: 25rem;
-    margin-left: 7rem;
+    margin-top: 17rem;
     position: absolute;
     z-index: 99;
-    display: block;
-    justify-content: left;
-    font-size: 3.1rem;
-    width: 100%;
 }
 
 .heading p {
@@ -309,7 +304,6 @@ a {
 }
 
 .hero {
-    /* text-align: center; */
     color: #fff;
     font-size: 3.1rem;
 }
@@ -345,7 +339,6 @@ a {
 
 #wall_video {
     width: 100%;
-    height: auto;
     transform: translate(0%, 0%);
     background-size: cover;
 }
@@ -358,8 +351,7 @@ video {
 
 @media (max-width: 800px) {
     #wall_video {
-        width: auto;
-        height: 100%;
+        width: 100%;
         transform: translate(0%, 0%);
         background-size: cover;
         overflow-x: hidden;
@@ -367,6 +359,359 @@ video {
     .con {
         display: flex;
         z-index: -999999;
+    }
+    .heading {
+        margin-top: 4rem;
+    }
+    .hero {
+        font-size: 2.1rem;
+    }
+}
+
+
+/* 2nd image section yaha se start ho raha hai  */
+
+#img2 {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-image: url("../images/HexPatterngrad4.jpg");
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.text-left {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.texthed {
+    color: #00a2fe !important;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+}
+
+.specialise {
+    color: #ccc !important;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.specialise li {
+    font-size: 20px;
+    line-height: 2;
+    color: #555;
+    font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .text-left .specialise .specialise li {
+        text-align: center;
+    }
+}
+
+.icon {
+    margin: 5px;
+    color: #16a9e2;
+}
+
+
+/* img3 ki style yaha se start ho rahi hai  */
+
+#img3 {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-image: url("../images/PayPerInterfaceFinal.jpg");
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.con2 {
+    padding-right: 5%;
+    padding-left: 45% !important;
+}
+
+.con2-3 {
+    background-color: #fff5;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.interface {
+    color: #00a2fe !important;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: Gill Sans, sans-serif;
+    text-align: left;
+    font-weight: 600;
+}
+
+.intp {
+    color: #555 !important;
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+/* pricing wala section yaha se start ho raha hai bhai  */
+
+.pricing {
+    padding-top: 80px;
+    background-color: #f9f9f9;
+}
+
+.con3 {
+    padding: 40px 10px;
+}
+
+.sectiontitle {
+    padding-bottom: 30px;
+}
+
+.sectiontitle h2 {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: Gill Sans, sans-serif;
+    color: #00a2fe;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.sectiontitle p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #aaa;
+    font-weight: 300;
+    font-family: Gill Sans, sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    text-align: left;
+}
+
+.clin {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.client-logo {
+    background: #f9f9f9;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #fff;
+    height: 140px;
+    margin-bottom: 25px;
+}
+
+.img-fluid {
+    max-width: fit-content;
+}
+
+.customer {
+    margin-bottom: 70px;
+}
+
+.counter_int2 {
+    border-color: #00A2FE;
+    color: #00A2FE;
+}
+
+.counter_bardiv33 {
+    width: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #fff;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.counter-count {
+    font-size: 35px;
+    /* text-decoration: underline; */
+    /* background-color: #00b3e7; */
+    /* border-radius: 50%; */
+    position: relative;
+    /* color: #ffffff; */
+    text-align: center;
+    line-height: 130px;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 0px;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.counter_span22 {
+    font-size: 35px;
+    /* margin-left: -20px; */
+    /* color: #fff; */
+}
+
+.counter121 {
+    color: #777 !important;
+}
+
+.customer-p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.clfinit05 {
+    margin-top: 60px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.counter_bardiv33 {
+    width: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #fff;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+
+/* about ka section jo integration wale page pe hai wo yaha se start hai  */
+
+#about p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.clfinit11 {
+    background-color: #0a0f25;
+    text-align: left;
+    overflow: hidden;
+}
+
+.discoverLeft .title {
+    display: block;
+    color: #00a2fe;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 400;
+}
+
+.discoverLeft p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ccc;
+    /* margin-bottom: 30px; */
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    color: #ccc;
+}
+
+.discovermore_btn1 {
+    color: #00A2FE;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 10px;
+}
+
+.discovermore_btn1 a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.discoverRight .title {
+    color: #00a2fe;
+    font-size: 26px;
+    font-family: Gill Sans, sans-serif;
+}
+
+.discoverRightdiv p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.discoverRight p {
+    color: #ccc;
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+}
+
+.discoverRight ul {
+    color: #ccc;
+    text-transform: none;
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    line-height: 24px;
+    letter-spacing: 0px;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    ;
+}
+
+
+/* integration steps wli img ka section yaha se shuru hai  */
+
+.con4 {
+    padding: 40px 10px;
+}
+
+@media (min-width: 992px) .text-lg-left {
+    text-align: left!important;
+}
+
+.operate {
+    background: url(../images/integration-steps.jpg) center;
+    height: 116vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.operate h2 {
+    color: #00a2fe !important;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: Gill Sans, sans-serif;
+    text-align: right;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .operate {
+        height: auto;
+        padding: 110px 0px;
+        padding-top: 25px;
+        background-size: cover;
     }
 }
 
