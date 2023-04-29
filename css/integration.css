@@ -313,30 +313,6 @@ a {
     margin-left: 0;
 }
 
-.con1 {
-    width: 40%;
-    height: 60px;
-    background-color: #fffB;
-    border-radius: 10px;
-}
-
-.imgdiv {
-    display: block;
-    object-fit: contain;
-    max-width: 50px;
-    max-height: 50px;
-    margin: 5px 20px 5px;
-}
-
-.imgdiv img {
-    display: block;
-    object-fit: contain;
-    max-width: 50px;
-    max-height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 #wall_video {
     width: 100%;
     transform: translate(0%, 0%);

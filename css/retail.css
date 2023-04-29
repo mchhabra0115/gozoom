@@ -30,7 +30,7 @@ a {
 }
 
 
-/* HEADER HAI YAHA PE  */
+/* HEADER HAI YAHA PE hai  */
 
 .header {
     position: fixed;
@@ -206,7 +206,7 @@ a {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/pic1.jpg");
+    background-image: url("../images/retail.jpg");
     background-position: center top;
     background-size: cover;
 }
@@ -294,7 +294,6 @@ a {
 }
 
 .hero {
-    text-align: center;
     color: #fff;
     font-size: 2.5rem;
 }
@@ -316,49 +315,202 @@ a {
     color: #39b7ff;
 }
 
-
-/* .explore-container {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+.heading {
+    background: transparent;
+    margin-top: 17rem;
+    position: absolute;
+    z-index: 99;
 }
 
-.explore-content {
-    margin-top: 3rem;
+.heading p {
+    position: absolute;
+    z-index: 99;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
 }
 
-.explore {
-    background-color: #2a4c79bf;
+.hero {
+    color: #fff;
+    font-size: 3.1rem;
+    justify-content: left;
+    padding: 0;
+}
+
+
+/* portfolio ka container yaha se start ho raha hai  */
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: Gill Sans, sans-serif;
+    color: #00a2fe;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.col-lg-4.col-md-4.portfolio-item {
+    padding: 0px;
+    margin: 10px 1%;
+    width: 31%;
+    flex: 0 0 31%;
+}
+
+.con1 {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+    margin: 10px 1%;
+}
+
+.image {
+    display: block;
+    width: 350px;
+    height: 500px;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: #024e80;
+    ;
+}
+
+.con1:hover .overlay {
+    opacity: 1;
+}
+
+.text {
     color: white;
-    font-size: larger;
-    font-weight: bold;
-    padding: .7rem 0;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    display: flexbox;
     position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    line-height: 1.4rem;
 }
 
-.baac {
-    background-color: #16a9e2;
-    padding: 2rem 10rem;
-    display: flexbox;
+.overlayLeft {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.con1:hover .overlayLeft {
+    width: 80%;
+}
+
+.text p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+.img-fluid {
+    max-width: fit-content;
+    height: 100%;
+    width: auto;
+}
+
+.conimghed {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.imghead {
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+
+/* products and services ka page yaha se start ho raha hai  */
+
+.con2 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin: 10px 1%;
+}
+
+.image2 {
+    display: block;
+    width: 350px;
+    height: 350px;
+}
+
+.overlay {
     position: absolute;
-    z-index: -99;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: #024e80;
+    ;
 }
 
-.m1 {
-    background-color: #e5e6eb;
-    margin-top: 200px;
-    padding: 35px;
+.con2:hover .overlay {
+    opacity: 1;
 }
 
-.m1 .para1>p {
-    letter-spacing: 1px !important;
-    color: #394b72 !important;
-    text-align: left !important;
-    font-size: 1.4rem !important;
+.text2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    line-height: 1.1rem;
 }
 
-.icon-heading {
-    padding: 20px 20px;
-} */
+.text2 h2 {
+    font-size: 1.3rem;
+}
+
+.overlayLeft {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.con2:hover .overlayLeft {
+    width: 80%;
+}
+
+.text2 p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+.img-fluid {
+    max-width: fit-content;
+    height: 100%;
+    width: auto;
+}
