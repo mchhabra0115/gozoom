@@ -374,13 +374,13 @@ a {
     margin: 10px 1%;
 }
 
-.image {
+.image1 {
     display: block;
     width: 350px;
     height: 500px;
 }
 
-.overlay {
+.overlay1 {
     position: absolute;
     transition: all 0.5s ease-in-out;
     opacity: 0;
@@ -388,11 +388,11 @@ a {
     ;
 }
 
-.con1:hover .overlay {
+.con1:hover .overlay1 {
     opacity: 1;
 }
 
-.text {
+.text1 {
     color: white;
     position: absolute;
     top: 50%;
@@ -402,18 +402,18 @@ a {
     line-height: 1.4rem;
 }
 
-.overlayLeft {
+.overlayLeft1 {
     height: 100%;
     width: 0;
     top: 0;
     left: 0;
 }
 
-.con1:hover .overlayLeft {
+.con1:hover .overlayLeft1 {
     width: 80%;
 }
 
-.text p {
+.text1 p {
     font-size: 18px;
     text-align: justify;
 }
@@ -460,7 +460,7 @@ a {
     height: 350px;
 }
 
-.overlay {
+.overlay2 {
     position: absolute;
     transition: all 0.5s ease-in-out;
     opacity: 0;
@@ -468,7 +468,7 @@ a {
     ;
 }
 
-.con2:hover .overlay {
+.con2:hover .overlay2 {
     opacity: 1;
 }
 
@@ -486,14 +486,14 @@ a {
     font-size: 1.3rem;
 }
 
-.overlayLeft {
+.overlayLeft2 {
     height: 100%;
     width: 0;
     top: 0;
     left: 0;
 }
 
-.con2:hover .overlayLeft {
+.con2:hover .overlayLeft2 {
     width: 80%;
 }
 
@@ -518,7 +518,8 @@ a {
 
 /* industry and soution ka sectin yaha se start ho raha hai */
 
-.col-lg-4.col-md-4.portfolio-item {
+
+/* .col-lg-4.col-md-4.portfolio-item {
     padding: 0px;
     margin: 10px 1%;
     width: 31%;
@@ -582,46 +583,40 @@ a {
     margin-left: auto;
     margin-right: auto;
     /* width: 100%; */
-}
 
+
+}
 .img-fluid {
     max-width: fit-content;
     height: 100%;
     width: auto;
 }
-
 .conimghed {
     display: flex;
     justify-content: center;
     background-color: black;
 }
-
 .imghead {
     color: #fff;
     font-size: 1rem;
     letter-spacing: 4px;
 }
-
-
+*/
 /* industry ka section yaha se start hai  */
-
 .clfret21 {
     background-color: #fff;
 }
-
 .retailsol_1 {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
-
 .header_div1 {
     margin-bottom: 15px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-
 .header_text1 {
     font-size: 30px;
     font-weight: 500;
@@ -632,7 +627,6 @@ a {
     text-align: center;
     font-weight: 600;
 }
-
 .con4 {
     position: relative;
     width: 250px;
@@ -640,13 +634,11 @@ a {
     display: inline-block;
     margin: 10px 1%;
 }
-
 .image4 {
     display: block;
     width: 250px;
     height: 400px;
 }
-
 .overlay4 {
     position: absolute;
     transition: all 0.5s ease-in-out;
@@ -654,11 +646,9 @@ a {
     background-color: #024e80;
     ;
 }
-
 .con4:hover .overlay4 {
     opacity: 1;
 }
-
 .text4 {
     color: white;
     position: absolute;
@@ -668,48 +658,40 @@ a {
     font-size: 15px;
     line-height: 1.4rem;
 }
-
 .overlayLeft4 {
     height: 100%;
     width: 0;
     top: 0;
     left: 0;
 }
-
 .con4:hover .overlayLeft4 {
     width: 80%;
 }
-
 .text4 p {
     font-size: 18px;
     text-align: justify;
 }
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     /* width: 100%; */
 }
-
 .img-fluid {
     max-width: fit-content;
     height: 100%;
     width: auto;
 }
-
 .conimghed {
     display: flex;
     justify-content: center;
     background-color: black;
 }
-
 .imghead {
     color: #fff;
     font-size: 1rem;
     letter-spacing: 4px;
 }
-
 .industries_ul1 {
     list-style: none;
     text-align: left;
@@ -719,19 +701,15 @@ a {
     padding-left: 15px;
     width: 80%;
 }
-
 .industries_ul1 li {
     font-size: 12px;
     width: 150px;
 }
 
-
 /* testimonial ka section yaha se start hai  */
-
 #testimonials {
     margin-top: 5rem;
 }
-
 .testi {
     color: #00a2fe;
     text-align: center;
@@ -740,7 +718,6 @@ a {
     font-size: 60px;
     font-weight: 700;
 }
-
 
 /* .test-card {
     margin: 20px;
@@ -752,24 +729,20 @@ a {
     width: 50%;
     margin-left: 70px;
 }  */
-
 .slide-container {
     max-width: 1120px;
     width: 100%;
     padding: 40px 0;
 }
-
 .slide-content {
     margin: 0 40px;
     overflow: hidden;
     border-radius: 25px;
 }
-
 .card {
     border-radius: 25px;
     background-color: #FFF;
 }
-
 .image-content,
 .card-content {
     display: flex;
@@ -777,13 +750,11 @@ a {
     align-items: center;
     padding: 10px 14px;
 }
-
 .image-content {
     position: relative;
     row-gap: 5px;
     padding: 25px 0;
 }
-
 .overlay {
     position: absolute;
     left: 0;
@@ -791,9 +762,9 @@ a {
     height: 100%;
     width: 100%;
     /* background-color: #00a2fe; */
+    
     border-radius: 25px 25px 0 25px;
 }
-
 .overlay::before,
 .overlay::after {
     content: '';
@@ -804,12 +775,10 @@ a {
     width: 40px;
     /* background-color: #00a2fe; */
 }
-
 .overlay::after {
     border-radius: 0 25px 0 0;
     background-color: #FFF;
 }
-
 .card-image {
     position: relative;
     height: 200px;
@@ -818,7 +787,6 @@ a {
     background: #FFF;
     padding: 3px;
 }
-
 .card-image .card-img {
     height: 100%;
     width: 100%;
@@ -826,19 +794,16 @@ a {
     border-radius: 50%;
     border: 4px solid #00a2fe;
 }
-
 .name {
     font-size: 18px;
     font-weight: 500;
     color: #333;
 }
-
 .description {
     font-size: 14px;
     color: #707070;
     text-align: center;
 }
-
 .button {
     border: none;
     font-size: 16px;
@@ -850,54 +815,44 @@ a {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .button:hover {
     background: #265DF2;
 }
-
 .swiper-navBtn {
     color: #6E93f7;
     transition: color 0.3s ease;
 }
-
 .swiper-navBtn:hover {
     color: #4070F4;
 }
-
 .swiper-navBtn::before,
 .swiper-navBtn::after {
     font-size: 35px;
 }
-
 .swiper-button-next {
     right: 0;
 }
-
 .swiper-button-prev {
     left: 0;
 }
-
 .swiper-pagination-bullet {
     background-color: #6E93f7;
     opacity: 1;
 }
-
 .swiper-pagination-bullet-active {
     background-color: #4070F4;
 }
-
 @media screen and (max-width: 768px) {
     .slide-content {
         margin: 0 10px;
     }
+    
     .swiper-navBtn {
         display: none;
     }
 }
 
-
 /* =================hot air balloon section yaha se start ho raha hai ======= */
-
 #secondbannerimg {
     width: 100%;
     display: block;
@@ -907,25 +862,20 @@ a {
     background-size: cover;
     margin: 3rem 0 3rem 0;
 }
-
 .headsec {
     color: #FFF;
     position: absolute;
     padding-top: 15rem;
     padding-left: 7rem;
 }
-
 .c-btn1:hover {
     background-color: transparent;
 }
 
-
 /* =============partners ka section yaha se shuru ho raha hai  */
-
 #partners {
     margin-top: 3rem;
 }
-
 .partner {
     color: #00a2fe;
     text-align: center;
@@ -935,14 +885,12 @@ a {
     font-weight: 600;
     letter-spacing: 4px;
 }
-
 .part {
     margin: auto;
     padding: auto;
     display: flex;
     justify-content: center;
 }
-
 .partimg {
     height: 150px;
     width: 150px;
@@ -951,24 +899,21 @@ a {
     align-items: center;
 }
 
-
 /* =============footer ka section yaha se start ho raha hai sir  */
-
 #contact {
     width: 100%;
     display: block;
     min-height: 80vh;
     /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    
     background: #0a1124 !important;
     background-position: center top;
     background-size: cover;
     margin: 3rem 0 0 0;
 }
-
 .fot {
     padding-top: 2rem;
 }
-
 .foologo {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -976,38 +921,32 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .footer .logo {
     padding: 0 15px;
     margin-top: 3px;
 }
-
 .footer .logo a {
     font-size: 30px;
     text-transform: capitalize;
     color: #39b7ff;
     font-weight: 600;
 }
-
 .focon {
     margin: auto;
     padding: auto;
     display: flex;
     justify-content: center;
 }
-
 .fohead {
     text-align: left;
     font-size: 25px;
     color: white;
 }
-
 .flag {
     max-height: 50px;
     max-width: 50px;
     padding: 10px;
 }
-
 .foadd {
     margin-top: 1rem;
     color: white;
@@ -1016,7 +955,6 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .folinks {
     margin-top: 1rem;
     color: white;
@@ -1025,16 +963,13 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .folinks ul li>a {
     color: white;
     line-height: 2rem;
 }
-
 .folinks ul li:hover>a {
     color: #00a2fe;
 }
-
 .foform {
     margin-top: 1rem;
     color: white;
@@ -1042,7 +977,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .formfi {
     background: transparent;
     border: 0px;
@@ -1054,11 +988,9 @@ a {
     color: #bbb;
     padding-left: 0px;
 }
-
 .textarea {
     width: 350px;
 }
-
 .formbtn {
     background-color: #117ea7;
     width: 350px;
@@ -1067,7 +999,6 @@ a {
     border: none;
     border-radius: 4px;
 }
-
 .copyright {
     display: flex;
     justify-content: center;
@@ -1075,32 +1006,28 @@ a {
     margin-top: 3rem;
     /* margin-bottom: 1rem; */
 }
-
 .copy {
     font-size: 15px;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-
 .gozoom {
     font-weight: bolder;
 }
-
 #contact {
     width: 100%;
     display: block;
     min-height: 80vh;
     /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    
     background: #0a1124 !important;
     background-position: center top;
     background-size: cover;
     margin: 3rem 0 0 0;
 }
-
 .fot {
     padding-top: 2rem;
 }
-
 .foologo {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -1108,38 +1035,32 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .footer .logo {
     padding: 0 15px;
     margin-top: 3px;
 }
-
 .footer .logo a {
     font-size: 30px;
     text-transform: capitalize;
     color: #39b7ff;
     font-weight: 600;
 }
-
 .focon {
     margin: auto;
     padding: auto;
     display: flex;
     justify-content: center;
 }
-
 .fohead {
     text-align: left;
     font-size: 25px;
     color: white;
 }
-
 .flag {
     max-height: 50px;
     max-width: 50px;
     padding: 10px;
 }
-
 .foadd {
     margin-top: 1rem;
     color: white;
@@ -1148,7 +1069,6 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .folinks {
     margin-top: 1rem;
     color: white;
@@ -1157,16 +1077,13 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .folinks ul li>a {
     color: white;
     line-height: 2rem;
 }
-
 .folinks ul li:hover>a {
     color: #00a2fe;
 }
-
 .foform {
     margin-top: 1rem;
     color: white;
@@ -1174,7 +1091,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .formfi {
     background: transparent;
     border: 0px;
@@ -1186,11 +1102,9 @@ a {
     color: #bbb;
     padding-left: 0px;
 }
-
 .textarea {
     width: 350px;
 }
-
 .formbtn {
     background-color: #117ea7;
     width: 350px;
@@ -1199,7 +1113,6 @@ a {
     border: none;
     border-radius: 4px;
 }
-
 .copyright {
     display: flex;
     justify-content: center;
@@ -1207,32 +1120,28 @@ a {
     margin-top: 3rem;
     /* margin-bottom: 1rem; */
 }
-
 .copy {
     font-size: 15px;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-
 .gozoom {
     font-weight: bolder;
 }
-
 #contact {
     width: 100%;
     display: block;
     min-height: 80vh;
     /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    
     background: #0a1124 !important;
     background-position: center top;
     background-size: cover;
     margin: 3rem 0 0 0;
 }
-
 .fot {
     padding-top: 2rem;
 }
-
 .foologo {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -1240,38 +1149,32 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .footer .logo {
     padding: 0 15px;
     margin-top: 3px;
 }
-
 .footer .logo a {
     font-size: 30px;
     text-transform: capitalize;
     color: #39b7ff;
     font-weight: 600;
 }
-
 .focon {
     margin: auto;
     padding: auto;
     display: flex;
     justify-content: center;
 }
-
 .fohead {
     text-align: left;
     font-size: 25px;
     color: white;
 }
-
 .flag {
     max-height: 50px;
     max-width: 50px;
     padding: 10px;
 }
-
 .foadd {
     margin-top: 1rem;
     color: white;
@@ -1280,11 +1183,9 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .foadd h3 {
     font-size: 18px;
 }
-
 .folinks {
     margin-top: 1rem;
     color: white;
@@ -1293,16 +1194,13 @@ a {
     justify-content: center;
     font-size: 18px;
 }
-
 .folinks ul li>a {
     color: white;
     line-height: 2rem;
 }
-
 .folinks ul li:hover>a {
     color: #00a2fe;
 }
-
 .foform {
     margin-top: 1rem;
     color: white;
@@ -1310,7 +1208,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .formfi {
     background: transparent;
     border: 0px;
@@ -1322,11 +1219,9 @@ a {
     color: #bbb;
     padding-left: 0px;
 }
-
 .textarea {
     width: 350px;
 }
-
 .formbtn {
     background-color: #117ea7;
     width: 350px;
@@ -1335,7 +1230,6 @@ a {
     border: none;
     border-radius: 4px;
 }
-
 .copyright {
     display: flex;
     justify-content: center;
@@ -1343,13 +1237,11 @@ a {
     margin-top: 3rem;
     /* margin-bottom: 1rem; */
 }
-
 .copy {
     font-size: 15px;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-
 .gozoom {
     font-weight: bolder;
 }
