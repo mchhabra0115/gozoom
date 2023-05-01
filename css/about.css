@@ -206,7 +206,7 @@ a {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/pic1.jpg");
+    background-image: url("../images/about2.jpg");
     background-position: center top;
     background-size: cover;
 }
@@ -297,68 +297,649 @@ a {
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
+    font-weight: 700;
 }
 
-.hero>a {
-    text-decoration: none;
+.hero1 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+
+/* story wala section yaha se start ho raha hai  */
+
+.fstdiv33 {
+    padding: 15px;
+    padding-top: 55px;
+}
+
+.clfab2 {
+    width: 100%;
+    height: 80vh;
+}
+
+.ourstory_h1 {
+    font-size: 32px;
+    text-transform: none;
+    margin-bottom: 10px;
+    color: #00a2fe !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ourstory_p1 {
+    font-size: 17.5px;
+    text-align: left;
+}
+
+
+/* we stand ka section yaha se start ho raha hai  */
+
+.pt-0 {
+    padding-top: 0!important;
+}
+
+.ourteam_div1 {
+    text-align: left;
+    padding: 8%;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header_div1 {
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ourteam65 {
+    width: 100%;
+    text-align: center;
+    color: #00a2fe !important;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: none;
+    margin-bottom: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.ourstory_p2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.con1 {
+    position: relative;
+    width: 320px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px 1%;
+}
+
+.image1 {
+    display: block;
+    width: 320px;
+    height: 250px;
+}
+
+.overlay1 {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: #024e80;
+    ;
+}
+
+.con1:hover .overlay1 {
+    opacity: 1;
+}
+
+.text1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    /* line-height: 3px; */
+}
+
+.overlayLeft1 {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.con1:hover .overlayLeft1 {
+    width: 80%;
+}
+
+.text1 h2 {
+    font-size: 15px;
+}
+
+.text1 p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+.img-fluid {
+    max-width: fit-content;
+    height: 100%;
+    width: auto;
+}
+
+.conimghed {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.imghead {
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+.industries_ul1 {
+    list-style: none;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 0px !important;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+
+/* progess bar ka section yaha se start ho raha hai  */
+
+.clfab3 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.progressbar_section1 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.counter {
+    background-color: #0a0f25;
+    text-align: center;
+}
+
+.employees,
+.customer,
+.design,
+.order {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.counter_bardiv33 {
+    width: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #fff;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.counter-count {
+    font-size: 35px;
+    /* text-decoration: underline; */
+    /* background-color: #00b3e7; */
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 110px;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 0px;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 34px;
+}
+
+.counter_span22 {
+    font-size: 35px;
+    /* margin-left: -20px; */
     color: #fff;
 }
 
-.hero:hover>a {
-    text-decoration: none;
+.counter_span33 {
+    font-size: 35px;
+    /* margin-right: -20px; */
+    color: #fff;
 }
 
-.integration:hover {
+
+/* footer ka section yaha se start ho raha hai  */
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
     color: #39b7ff;
+    font-weight: 600;
 }
 
-.retail:hover {
-    color: #39b7ff;
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
 }
 
-
-/* .explore-container {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-}
-
-.explore-content {
-    margin-top: 3rem;
-}
-
-.explore {
-    background-color: #2a4c79bf;
+.fohead {
+    text-align: left;
+    font-size: 25px;
     color: white;
-    font-size: larger;
-    font-weight: bold;
-    padding: .7rem 0;
-    margin-left: 1rem;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
     margin-top: 1rem;
-    display: flexbox;
-    position: absolute;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
 }
 
-.baac {
-    background-color: #16a9e2;
-    padding: 2rem 10rem;
-    display: flexbox;
-    position: absolute;
-    z-index: -99;
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
 }
 
-.m1 {
-    background-color: #e5e6eb;
-    margin-top: 200px;
-    padding: 35px;
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
 }
 
-.m1 .para1>p {
-    letter-spacing: 1px !important;
-    color: #394b72 !important;
-    text-align: left !important;
-    font-size: 1.4rem !important;
+.folinks ul li:hover>a {
+    color: #00a2fe;
 }
 
-.icon-heading {
-    padding: 20px 20px;
-} */
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.foadd h3 {
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
