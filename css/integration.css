@@ -64,6 +64,12 @@ a {
     font-weight: 600;
 }
 
+.header .logo a img {
+    width: 100%;
+    height: 50px !important;
+    padding-right: 2rem !important;
+}
+
 .header .nav-menu {
     padding: 0 50px;
 }
@@ -351,7 +357,7 @@ video {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/HexPatterngrad4.jpg");
+    background-image: url("../images/26.png");
     background-position: center top;
     background-size: cover;
     margin: 0;
@@ -366,7 +372,7 @@ video {
 }
 
 .texthed {
-    color: #00a2fe !important;
+    color: #0a1124 !important;
     font-size: 32px;
     letter-spacing: 2px;
     font-family: Gill Sans, sans-serif;
@@ -382,7 +388,7 @@ video {
 .specialise li {
     font-size: 20px;
     line-height: 2;
-    color: #555;
+    color: #000;
     font-weight: 300;
 }
 
@@ -404,7 +410,7 @@ video {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/PayPerInterfaceFinal.jpg");
+    background-image: url("../images/23.png");
     background-position: center top;
     background-size: cover;
     margin: 0;
@@ -417,7 +423,7 @@ video {
 }
 
 .con2-3 {
-    background-color: #fff5;
+    background-color: #000;
     border-radius: 10px;
     padding: 10px 20px;
 }
@@ -432,7 +438,7 @@ video {
 }
 
 .intp {
-    color: #555 !important;
+    color: #fff !important;
     font-size: 18px;
     font-family: Gill Sans, sans-serif;
     text-align: left;
@@ -970,6 +976,11 @@ video {
     text-transform: capitalize;
     color: #39b7ff;
     font-weight: 600;
+}
+
+.footer .logo a img {
+    width: 100%;
+    height: 70px !important;
 }
 
 .focon {

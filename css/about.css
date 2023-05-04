@@ -63,6 +63,12 @@ a {
     font-weight: 600;
 }
 
+.header .logo a img {
+    width: 100%;
+    height: 50px !important;
+    padding-right: 2rem !important;
+}
+
 .header .nav-menu {
     padding: 0 50px;
 }
@@ -332,7 +338,7 @@ a {
 
 .ourstory_p1 {
     font-size: 17.5px;
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -377,7 +383,7 @@ a {
 
 .con1 {
     position: relative;
-    width: 320px;
+    width: 360px;
     height: 250px;
     display: inline-block;
     margin: 10px 1%;
@@ -385,7 +391,7 @@ a {
 
 .image1 {
     display: block;
-    width: 320px;
+    width: 360px;
     height: 250px;
 }
 
@@ -419,7 +425,7 @@ a {
 }
 
 .con1:hover .overlayLeft1 {
-    width: 80%;
+    width: 100%;
 }
 
 .text1 h2 {
@@ -841,6 +847,11 @@ a {
     text-transform: capitalize;
     color: #39b7ff;
     font-weight: 600;
+}
+
+.footer .logo a img {
+    width: 100%;
+    height: 70px !important;
 }
 
 .focon {
