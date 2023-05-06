@@ -400,11 +400,12 @@ a {
 
 .text1 {
     color: white;
+    width: 90%;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.4rem;
 }
 
@@ -416,7 +417,7 @@ a {
 }
 
 .con1:hover .overlayLeft1 {
-    width: 80%;
+    width: 90%;
 }
 
 .text1 p {

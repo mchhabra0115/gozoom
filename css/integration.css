@@ -357,7 +357,7 @@ video {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/26.png");
+    background-image: url("../images/5.png");
     background-position: center top;
     background-size: cover;
     margin: 0;
@@ -372,23 +372,25 @@ video {
 }
 
 .texthed {
-    color: #0a1124 !important;
+    color: #fff !important;
     font-size: 32px;
     letter-spacing: 2px;
     font-family: Gill Sans, sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 .specialise {
     color: #ccc !important;
     list-style: none;
     padding-left: 0px;
+    text-align: center;
 }
 
 .specialise li {
     font-size: 20px;
     line-height: 2;
-    color: #000;
+    color: #FFF;
     font-weight: 300;
 }
 
@@ -503,7 +505,7 @@ video {
     margin-bottom: 25px;
 }
 
-.image-wrapper {
+.img-wra {
     position: relative;
     /* width: 300px; */
     height: 140px;
@@ -511,9 +513,26 @@ video {
     transition: transform 0.5s ease;
 }
 
+.img-wra:hover {
+    transform: scale(1.2);
+}
+
+
+/* .image-wrapper {
+    position: relative; */
+
+
+/* width: 300px; */
+
+
+/* height: 140px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
 .image-wrapper:hover {
     transform: scale(1.1);
-}
+} */
 
 
 /* .clinit112 {
