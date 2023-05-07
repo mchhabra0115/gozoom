@@ -343,13 +343,14 @@ a {
     position: absolute;
 }
 
-.baac {
+
+/* .baac {
     background-color: #16a9e2;
     padding: 2rem 10rem;
     display: flexbox;
     position: absolute;
     z-index: -99;
-}
+} */
 
 .m1 {
     background-color: #e5e6eb;
