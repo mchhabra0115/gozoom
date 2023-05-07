@@ -409,6 +409,10 @@ a {
     line-height: 1.4rem;
 }
 
+.text1 h2 {
+    font-size: 20px;
+}
+
 .overlayLeft1 {
     height: 100%;
     width: 0;
