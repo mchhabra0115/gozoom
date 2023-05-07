@@ -380,11 +380,16 @@ video {
     text-align: center;
 }
 
+.special {
+    display: flex;
+    justify-content: center;
+}
+
 .specialise {
     color: #ccc !important;
     list-style: none;
     padding-left: 0px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .specialise li {
@@ -557,7 +562,7 @@ video {
     width: 135px;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #00A2FE;
     height: 90px;
     margin-bottom: 15px;
 }
