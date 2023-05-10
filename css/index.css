@@ -323,25 +323,26 @@ a {
 }
 
 .explore-container {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.explore-content {
+
+/* .explore-content {
     margin-top: 3rem;
     margin-left: 6rem;
-}
+} */
 
 .explore {
     background-color: #2a4c79bf;
     color: white;
     font-size: larger;
     font-weight: bold;
-    padding: .7rem 0;
+    /* padding: .7rem 0; */
     /* margin-left: 1rem; */
-    margin-top: 1rem;
-    display: flexbox;
-    position: absolute;
+    /* margin-top: 1rem; */
+    /* display: flexbox; */
+    /* position: absolute; */
 }
 
 
@@ -355,8 +356,8 @@ a {
 
 .m1 {
     background-color: #e5e6eb;
-    margin-top: 200px;
     padding: 35px;
+    margin-top: 3rem;
 }
 
 .m1 .para1>p {
