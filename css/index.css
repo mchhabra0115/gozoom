@@ -434,14 +434,27 @@ a {
 
 /* second image section yaha se shuru ho raha hai bro */
 
-#img2 {
+
+/* #img2 {
     width: 100%;
     display: block;
     min-height: 100vh;
-    background-image: url("../images/kiosks.jpg");
+    background-image: url("../images/integrationvideo.mp4");
     background-position: center top;
     background-size: cover;
     margin: 3rem 0 3rem 0;
+} */
+
+#wall_video {
+    width: 100%;
+    transform: translate(0%, 0%);
+    background-size: cover;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    /* overflow-x: hidden; */
 }
 
 .head1 {
