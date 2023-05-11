@@ -722,21 +722,26 @@ a {
     border-radius: 25px 25px 0 25px;
 }
 
-.overlay::before,
+
+/* .overlay::before,
 .overlay::after {
     content: '';
     position: absolute;
     right: 0;
     bottom: -40px;
     height: 40px;
-    width: 40px;
-    /* background-color: #00a2fe; */
-}
+    width: 40px; */
+
+
+/* background-color: #00a2fe; */
+
+
+/* }
 
 .overlay::after {
     border-radius: 0 25px 0 0;
     background-color: #FFF;
-}
+} */
 
 .card-image {
     position: relative;
@@ -764,7 +769,8 @@ a {
 .description {
     font-size: 14px;
     color: #707070;
-    text-align: center;
+    text-align: justify;
+    /* padding-top: 2rem; */
 }
 
 .button {
