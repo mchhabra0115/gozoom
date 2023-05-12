@@ -769,7 +769,7 @@ a {
 .description {
     font-size: 14px;
     color: #707070;
-    text-align: justify;
+    text-align: left;
     /* padding-top: 2rem; */
 }
 
